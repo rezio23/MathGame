@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/cherry"
+        android:fontFamily="@font/inter_extrabold"
+        android:gravity="center"
+        android:lineSpacingExtra="16sp"
+        android:text="Math Game"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:text="ADDITION"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:text="SUBSTRACTION"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:text="MULTIPLICATION"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+</LinearLayout>
